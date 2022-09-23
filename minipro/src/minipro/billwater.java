@@ -6,7 +6,10 @@ public class billwater implements Unit {
     
     String ms = "";
     
-    
+    @Override
+    public void ter(){
+        
+    }
     public String getall(){
         ms = "Invoice Due : 5th of every month";
         return ms; 
